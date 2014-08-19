@@ -1,0 +1,72 @@
+<!--created by Xiaoiao Kong on 07/26/2014-->
+<html>
+    <head>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+            google.load("visualization", "1", {packages:["corechart"]});
+            google.setOnLoadCallback(drawChart);
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                                                                  ['Day', 'Real', 'Plan'],
+                                                                  ['08/02',  8921,      4000],
+                                                                  ['08/03',  6584,      4600],
+                                                                  ['08/04',  2749,       3800],
+                                                                  ['08/05',  9033,      5400]
+                                                                  ]);
+                                                                  
+                                                                  var options = {
+                                                                      title: 'Calorie Tracking',
+                                                                      hAxis: {title: 'Date',  titleTextStyle: {color: '#333'}},
+                                                                      vAxis: {title: 'Calorie',titleTextStyle: {color: '#333'},minValue: 0}
+                                                                  };
+                                                                  
+                var data2 = google.visualization.arrayToDataTable([
+                                                                                                                     ['Day', 'Real', 'Plan'],
+                                                                   ['08/02',  13.1,      10],
+                                                                   ['08/03',  11.2,       15],
+                                                                   ['08/04',  8.3,      12],
+                                                                   ['08/05',  13.9,      10]
+                                                                                                                     ]);
+                                                                                                                     
+                                                                                                                     var options2 = {
+                                                                                                                         
+                                                                         title: 'Distance Tracking',                                                hAxis: {title: 'Date',  titleTextStyle: {color: '#333'}},
+                                                                                                                         vAxis: {title: 'Miles',titleTextStyle: {color: '#333'},minValue: 0}
+                                                                                                                     };
+                    
+                    var data3 = google.visualization.arrayToDataTable([
+                                                                       ['Day', 'Real', 'Plan'],
+                                                                       ['05/01',  13530,      10000],
+                                                                       ['05/02',  9562,      15000],
+                                                                       ['05/03',  7065,       12000],
+                                                                       ['05/04',  14648,      10000]
+                                                                       ]);
+                                                                       
+                                                                       var options3 = {
+                                                                           title: 'Step Tracking',   
+                                                                           hAxis: {title: 'Date',  titleTextStyle: {color: '#333'}},
+                                                                           vAxis: {title: 'Steps',titleTextStyle: {color: '#333'},minValue: 0}
+                                                                       };
+                                                                       
+                                                                                                                     var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+                                                                                                                     chart.draw(data, options);
+                                                                                                                     
+                                                                                                                     var chart2 = new google.visualization.AreaChart(document.getElementById('chart2_div'));
+                                                                                                                     chart2.draw(data2, options2);
+                                                                                                                     
+                                                                                                                     var chart3 = new google.visualization.AreaChart(document.getElementById('chart3_div'));
+                                                                                                                     chart3.draw(data3, options3);
+
+            }
+        
+            </script>
+    </head>
+    <body>
+        <div id="chart_div" style="width: 100%; height: 50%;"></div>
+
+        <div id="chart2_div" style="width: 100%; height: 50%;"></div>
+        
+        <div id="chart3_div" style="width: 100%; height: 50%;"></div>
+
+    </body>
+</html>

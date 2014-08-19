@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1F3738198C998F0036E4F4 /* run_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F3737198C998F0036E4F4 /* run_logo.png */; };
+		8E1F373A198C9A780036E4F4 /* run_logo_original1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F3739198C9A780036E4F4 /* run_logo_original1.png */; };
+		8E1F373C198C9A810036E4F4 /* run_logo_original2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F373B198C9A810036E4F4 /* run_logo_original2.png */; };
+		8E1F373E198C9A8F0036E4F4 /* run_logo_original3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F373D198C9A8F0036E4F4 /* run_logo_original3.png */; };
+		8E1F3740198C9B6B0036E4F4 /* social-facebook-box-blue-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1F373F198C9B6B0036E4F4 /* social-facebook-box-blue-icon.png */; };
+		8E1F3743198CA6250036E4F4 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F3742198CA6250036E4F4 /* UserInfo.m */; };
+		8E1F374C198D51410036E4F4 /* FITNearbyDrinkMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F374B198D51410036E4F4 /* FITNearbyDrinkMapViewController.m */; };
+		8E1F374F198D515D0036E4F4 /* FITNearbyDrinkResultsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F374E198D515D0036E4F4 /* FITNearbyDrinkResultsTableViewCell.m */; };
+		8E1F3756198E81410036E4F4 /* UserInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F3755198E81410036E4F4 /* UserInformation.m */; };
+		8E27A51F197F645500ABC7D7 /* FITExerciseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E27A51E197F645500ABC7D7 /* FITExerciseDetailViewController.m */; };
+		8E27A52119801DD600ABC7D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E27A52019801DD600ABC7D7 /* CoreData.framework */; };
+		8E27A52A198052EF00ABC7D7 /* FitMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E27A528198052EF00ABC7D7 /* FitMap.xcdatamodeld */; };
+		8E27A57719813F6500ABC7D7 /* RunInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E27A57619813F6500ABC7D7 /* RunInfo.m */; };
+		8E2A41FE197F37A9003880B7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2A41FD197F37A9003880B7 /* CoreLocation.framework */; };
+		8E2A4200197F37BD003880B7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2A41FF197F37BD003880B7 /* MapKit.framework */; };
+		8E6698DA1983440500BC63B0 /* FITRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6698D91983440500BC63B0 /* FITRouteViewController.m */; };
+		8E6698E01986A5EF00BC63B0 /* FITSearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6698DF1986A5EF00BC63B0 /* FITSearchResultsTableViewController.m */; };
+		8E6698E61986BF5700BC63B0 /* FITNearbyDrinkRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6698E51986BF5700BC63B0 /* FITNearbyDrinkRouteViewController.m */; };
+		8E76BB2F197D68A400ED9A1F /* FITLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E76BB2E197D68A400ED9A1F /* FITLoginViewController.m */; };
+		8EB1E487197D9E9600DC732B /* 34-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB1E486197D9E9600DC732B /* 34-coffee.png */; };
+		8EB1E489197D9EA500DC732B /* 63-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB1E488197D9EA500DC732B /* 63-runner.png */; };
+		8EB1E4AD197DA01000DC732B /* database@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB1E4AC197DA01000DC732B /* database@2x.png */; };
+		8EB1E4AF197DA01900DC732B /* cog_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB1E4AE197DA01900DC732B /* cog_02@2x.png */; };
+		8EB1E4B2197DFF4600DC732B /* FITNewRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1E4B1197DFF4600DC732B /* FITNewRunViewController.m */; };
+		8ECD907E198FCFFA001B680B /* OAuthiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECD907D198FCFFA001B680B /* OAuthiOS.framework */; };
+		8ED6F0F4197C5D0700D40929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED6F0F3197C5D0700D40929 /* Foundation.framework */; };
+		8ED6F0F6197C5D0700D40929 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED6F0F5197C5D0700D40929 /* CoreGraphics.framework */; };
+		8ED6F0F8197C5D0700D40929 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED6F0F7197C5D0700D40929 /* UIKit.framework */; };
+		8ED6F0FE197C5D0700D40929 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6F0FC197C5D0700D40929 /* InfoPlist.strings */; };
+		8ED6F100197C5D0700D40929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6F0FF197C5D0700D40929 /* main.m */; };
+		8ED6F104197C5D0700D40929 /* FITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6F103197C5D0700D40929 /* FITAppDelegate.m */; };
+		8ED6F107197C5D0700D40929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6F105197C5D0700D40929 /* Main.storyboard */; };
+		8ED6F10A197C5D0700D40929 /* FITDailyRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6F109197C5D0700D40929 /* FITDailyRunViewController.m */; };
+		8ED6F10D197C5D0700D40929 /* FITExerciseTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6F10C197C5D0700D40929 /* FITExerciseTrackViewController.m */; };
+		8ED6F10F197C5D0700D40929 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6F10E197C5D0700D40929 /* Images.xcassets */; };
+		8ED6F116197C5D0700D40929 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED6F115197C5D0700D40929 /* XCTest.framework */; };
+		8ED6F117197C5D0700D40929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED6F0F3197C5D0700D40929 /* Foundation.framework */; };
+		8ED6F118197C5D0700D40929 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED6F0F7197C5D0700D40929 /* UIKit.framework */; };
+		8ED6F120197C5D0700D40929 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6F11E197C5D0700D40929 /* InfoPlist.strings */; };
+		8ED6F122197C5D0700D40929 /* FitMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6F121197C5D0700D40929 /* FitMapTests.m */; };
+		CF11547A1986CCE3005988EF /* TrackingPage.html in Resources */ = {isa = PBXBuildFile; fileRef = CF1154791986CCE3005988EF /* TrackingPage.html */; };
+		CF11547C1986CCFF005988EF /* TermOfUsePage.html in Resources */ = {isa = PBXBuildFile; fileRef = CF11547B1986CCFF005988EF /* TermOfUsePage.html */; };
+		CF11547F1986CE35005988EF /* FITAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF11547E1986CE35005988EF /* FITAccountViewController.m */; };
+		CF1154811986D00D005988EF /* Fitbit.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1154801986D00D005988EF /* Fitbit.png */; };
+		CF1154831986D112005988EF /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1154821986D112005988EF /* yes.png */; };
+		CF1154891986D47B005988EF /* FITTermOfUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1154881986D47B005988EF /* FITTermOfUseViewController.m */; };
+		CF2BB232198DEF4D00D6BD1A /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = CF2BB231198DEF4D00D6BD1A /* bootstrap.min.css */; };
+		CF2BB234198DEF6700D6BD1A /* bootstrap.min.js in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB233198DEF6700D6BD1A /* bootstrap.min.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ED6F119197C5D0700D40929 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ED6F0E8197C5D0700D40929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED6F0EF197C5D0700D40929;
+			remoteInfo = FitMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E1F3737198C998F0036E4F4 /* run_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run_logo.png; sourceTree = "<group>"; };
+		8E1F3739198C9A780036E4F4 /* run_logo_original1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run_logo_original1.png; sourceTree = "<group>"; };
+		8E1F373B198C9A810036E4F4 /* run_logo_original2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run_logo_original2.png; sourceTree = "<group>"; };
+		8E1F373D198C9A8F0036E4F4 /* run_logo_original3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run_logo_original3.png; sourceTree = "<group>"; };
+		8E1F373F198C9B6B0036E4F4 /* social-facebook-box-blue-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "social-facebook-box-blue-icon.png"; sourceTree = "<group>"; };
+		8E1F3741198CA6250036E4F4 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		8E1F3742198CA6250036E4F4 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		8E1F374A198D51340036E4F4 /* FITNearbyDrinkMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITNearbyDrinkMapViewController.h; path = FitMap/FITNearbyDrinkMapViewController.h; sourceTree = "<group>"; };
+		8E1F374B198D51410036E4F4 /* FITNearbyDrinkMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITNearbyDrinkMapViewController.m; path = FitMap/FITNearbyDrinkMapViewController.m; sourceTree = "<group>"; };
+		8E1F374D198D514F0036E4F4 /* FITNearbyDrinkResultsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITNearbyDrinkResultsTableViewCell.h; path = FitMap/FITNearbyDrinkResultsTableViewCell.h; sourceTree = "<group>"; };
+		8E1F374E198D515D0036E4F4 /* FITNearbyDrinkResultsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITNearbyDrinkResultsTableViewCell.m; path = FitMap/FITNearbyDrinkResultsTableViewCell.m; sourceTree = "<group>"; };
+		8E1F3754198E812E0036E4F4 /* UserInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInformation.h; sourceTree = "<group>"; };
+		8E1F3755198E81410036E4F4 /* UserInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInformation.m; sourceTree = "<group>"; };
+		8E27A51D197F645500ABC7D7 /* FITExerciseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITExerciseDetailViewController.h; path = FitMap/FITExerciseDetailViewController.h; sourceTree = "<group>"; };
+		8E27A51E197F645500ABC7D7 /* FITExerciseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITExerciseDetailViewController.m; path = FitMap/FITExerciseDetailViewController.m; sourceTree = "<group>"; };
+		8E27A52019801DD600ABC7D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8E27A529198052EF00ABC7D7 /* FitMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitMap.xcdatamodel; sourceTree = "<group>"; };
+		8E27A57519813F6500ABC7D7 /* RunInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunInfo.h; sourceTree = "<group>"; };
+		8E27A57619813F6500ABC7D7 /* RunInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunInfo.m; sourceTree = "<group>"; };
+		8E2A41FD197F37A9003880B7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8E2A41FF197F37BD003880B7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8E6698D81983440500BC63B0 /* FITRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITRouteViewController.h; path = FitMap/FITRouteViewController.h; sourceTree = "<group>"; };
+		8E6698D91983440500BC63B0 /* FITRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITRouteViewController.m; path = FitMap/FITRouteViewController.m; sourceTree = "<group>"; };
+		8E6698DE1986A5EF00BC63B0 /* FITSearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITSearchResultsTableViewController.h; path = FitMap/FITSearchResultsTableViewController.h; sourceTree = "<group>"; };
+		8E6698DF1986A5EF00BC63B0 /* FITSearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITSearchResultsTableViewController.m; path = FitMap/FITSearchResultsTableViewController.m; sourceTree = "<group>"; };
+		8E6698E41986BF5700BC63B0 /* FITNearbyDrinkRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITNearbyDrinkRouteViewController.h; path = FitMap/FITNearbyDrinkRouteViewController.h; sourceTree = "<group>"; };
+		8E6698E51986BF5700BC63B0 /* FITNearbyDrinkRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITNearbyDrinkRouteViewController.m; path = FitMap/FITNearbyDrinkRouteViewController.m; sourceTree = "<group>"; };
+		8E76BB2D197D68A400ED9A1F /* FITLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITLoginViewController.h; path = FitMap/FITLoginViewController.h; sourceTree = "<group>"; };
+		8E76BB2E197D68A400ED9A1F /* FITLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITLoginViewController.m; path = FitMap/FITLoginViewController.m; sourceTree = "<group>"; };
+		8EB1E486197D9E9600DC732B /* 34-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-coffee.png"; sourceTree = "<group>"; };
+		8EB1E488197D9EA500DC732B /* 63-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "63-runner.png"; sourceTree = "<group>"; };
+		8EB1E4AC197DA01000DC732B /* database@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database@2x.png"; sourceTree = "<group>"; };
+		8EB1E4AE197DA01900DC732B /* cog_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cog_02@2x.png"; sourceTree = "<group>"; };
+		8EB1E4B0197DFF4600DC732B /* FITNewRunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITNewRunViewController.h; path = FitMap/FITNewRunViewController.h; sourceTree = "<group>"; };
+		8EB1E4B1197DFF4600DC732B /* FITNewRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITNewRunViewController.m; path = FitMap/FITNewRunViewController.m; sourceTree = "<group>"; };
+		8ECD907D198FCFFA001B680B /* OAuthiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthiOS.framework; path = FitMap/Library/OAuthiOS.framework; sourceTree = "<group>"; };
+		8ED6F0F0197C5D0700D40929 /* FitMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED6F0F3197C5D0700D40929 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8ED6F0F5197C5D0700D40929 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8ED6F0F7197C5D0700D40929 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8ED6F0FB197C5D0700D40929 /* FitMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitMap-Info.plist"; sourceTree = "<group>"; };
+		8ED6F0FD197C5D0700D40929 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ED6F0FF197C5D0700D40929 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ED6F101197C5D0700D40929 /* FitMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitMap-Prefix.pch"; sourceTree = "<group>"; };
+		8ED6F102197C5D0700D40929 /* FITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FITAppDelegate.h; path = FitMap/FITAppDelegate.h; sourceTree = "<group>"; };
+		8ED6F103197C5D0700D40929 /* FITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FITAppDelegate.m; path = FitMap/FITAppDelegate.m; sourceTree = "<group>"; };
+		8ED6F106197C5D0700D40929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ED6F108197C5D0700D40929 /* FITDailyRunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FITDailyRunViewController.h; path = FitMap/FITDailyRunViewController.h; sourceTree = "<group>"; };
+		8ED6F109197C5D0700D40929 /* FITDailyRunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FITDailyRunViewController.m; path = FitMap/FITDailyRunViewController.m; sourceTree = "<group>"; };
+		8ED6F10B197C5D0700D40929 /* FITExerciseTrackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FITExerciseTrackViewController.h; path = FitMap/FITExerciseTrackViewController.h; sourceTree = "<group>"; };
+		8ED6F10C197C5D0700D40929 /* FITExerciseTrackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FITExerciseTrackViewController.m; path = FitMap/FITExerciseTrackViewController.m; sourceTree = "<group>"; };
+		8ED6F10E197C5D0700D40929 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8ED6F114197C5D0700D40929 /* FitMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED6F115197C5D0700D40929 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8ED6F11D197C5D0700D40929 /* FitMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitMapTests-Info.plist"; sourceTree = "<group>"; };
+		8ED6F11F197C5D0700D40929 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ED6F121197C5D0700D40929 /* FitMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitMapTests.m; sourceTree = "<group>"; };
+		CF1154791986CCE3005988EF /* TrackingPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TrackingPage.html; sourceTree = "<group>"; };
+		CF11547B1986CCFF005988EF /* TermOfUsePage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TermOfUsePage.html; sourceTree = "<group>"; };
+		CF11547D1986CE35005988EF /* FITAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITAccountViewController.h; path = FitMap/FITAccountViewController.h; sourceTree = "<group>"; };
+		CF11547E1986CE35005988EF /* FITAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITAccountViewController.m; path = FitMap/FITAccountViewController.m; sourceTree = "<group>"; };
+		CF1154801986D00D005988EF /* Fitbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fitbit.png; sourceTree = "<group>"; };
+		CF1154821986D112005988EF /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
+		CF1154871986D47B005988EF /* FITTermOfUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FITTermOfUseViewController.h; path = FitMap/FITTermOfUseViewController.h; sourceTree = "<group>"; };
+		CF1154881986D47B005988EF /* FITTermOfUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FITTermOfUseViewController.m; path = FitMap/FITTermOfUseViewController.m; sourceTree = "<group>"; };
+		CF2BB231198DEF4D00D6BD1A /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
+		CF2BB233198DEF6700D6BD1A /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED6F0ED197C5D0700D40929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECD907E198FCFFA001B680B /* OAuthiOS.framework in Frameworks */,
+				8E27A52119801DD600ABC7D7 /* CoreData.framework in Frameworks */,
+				8E2A4200197F37BD003880B7 /* MapKit.framework in Frameworks */,
+				8E2A41FE197F37A9003880B7 /* CoreLocation.framework in Frameworks */,
+				8ED6F0F6197C5D0700D40929 /* CoreGraphics.framework in Frameworks */,
+				8ED6F0F8197C5D0700D40929 /* UIKit.framework in Frameworks */,
+				8ED6F0F4197C5D0700D40929 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED6F111197C5D0700D40929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED6F116197C5D0700D40929 /* XCTest.framework in Frameworks */,
+				8ED6F118197C5D0700D40929 /* UIKit.framework in Frameworks */,
+				8ED6F117197C5D0700D40929 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E27A57819816F5200ABC7D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8ED6F102197C5D0700D40929 /* FITAppDelegate.h */,
+				8ED6F103197C5D0700D40929 /* FITAppDelegate.m */,
+				8E76BB2D197D68A400ED9A1F /* FITLoginViewController.h */,
+				8E76BB2E197D68A400ED9A1F /* FITLoginViewController.m */,
+				8ED6F108197C5D0700D40929 /* FITDailyRunViewController.h */,
+				8ED6F109197C5D0700D40929 /* FITDailyRunViewController.m */,
+				8E6698D81983440500BC63B0 /* FITRouteViewController.h */,
+				8E6698D91983440500BC63B0 /* FITRouteViewController.m */,
+				8E27A51D197F645500ABC7D7 /* FITExerciseDetailViewController.h */,
+				8E27A51E197F645500ABC7D7 /* FITExerciseDetailViewController.m */,
+				8EB1E4B0197DFF4600DC732B /* FITNewRunViewController.h */,
+				8EB1E4B1197DFF4600DC732B /* FITNewRunViewController.m */,
+				8E6698DE1986A5EF00BC63B0 /* FITSearchResultsTableViewController.h */,
+				8E6698DF1986A5EF00BC63B0 /* FITSearchResultsTableViewController.m */,
+				8E6698E41986BF5700BC63B0 /* FITNearbyDrinkRouteViewController.h */,
+				8E6698E51986BF5700BC63B0 /* FITNearbyDrinkRouteViewController.m */,
+				8E1F374A198D51340036E4F4 /* FITNearbyDrinkMapViewController.h */,
+				8E1F374B198D51410036E4F4 /* FITNearbyDrinkMapViewController.m */,
+				8E1F374D198D514F0036E4F4 /* FITNearbyDrinkResultsTableViewCell.h */,
+				8E1F374E198D515D0036E4F4 /* FITNearbyDrinkResultsTableViewCell.m */,
+				8ED6F10B197C5D0700D40929 /* FITExerciseTrackViewController.h */,
+				8ED6F10C197C5D0700D40929 /* FITExerciseTrackViewController.m */,
+				CF11547D1986CE35005988EF /* FITAccountViewController.h */,
+				CF11547E1986CE35005988EF /* FITAccountViewController.m */,
+				CF1154871986D47B005988EF /* FITTermOfUseViewController.h */,
+				CF1154881986D47B005988EF /* FITTermOfUseViewController.m */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8E27A57919816FCA00ABC7D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8ED6F105197C5D0700D40929 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8E27A57A19816FE000ABC7D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E27A57519813F6500ABC7D7 /* RunInfo.h */,
+				8E27A57619813F6500ABC7D7 /* RunInfo.m */,
+				8E27A528198052EF00ABC7D7 /* FitMap.xcdatamodeld */,
+				8E1F3741198CA6250036E4F4 /* UserInfo.h */,
+				8E1F3742198CA6250036E4F4 /* UserInfo.m */,
+				8E1F3754198E812E0036E4F4 /* UserInformation.h */,
+				8E1F3755198E81410036E4F4 /* UserInformation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8ED6F0E7197C5D0700D40929 = {
+			isa = PBXGroup;
+			children = (
+				8ED6F0F9197C5D0700D40929 /* FitMap */,
+				8ED6F11B197C5D0700D40929 /* FitMapTests */,
+				8ED6F0F2197C5D0700D40929 /* Frameworks */,
+				8ED6F0F1197C5D0700D40929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED6F0F1197C5D0700D40929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED6F0F0197C5D0700D40929 /* FitMap.app */,
+				8ED6F114197C5D0700D40929 /* FitMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED6F0F2197C5D0700D40929 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ECD907D198FCFFA001B680B /* OAuthiOS.framework */,
+				8E27A52019801DD600ABC7D7 /* CoreData.framework */,
+				8E2A41FF197F37BD003880B7 /* MapKit.framework */,
+				8E2A41FD197F37A9003880B7 /* CoreLocation.framework */,
+				8ED6F0F3197C5D0700D40929 /* Foundation.framework */,
+				8ED6F0F5197C5D0700D40929 /* CoreGraphics.framework */,
+				8ED6F0F7197C5D0700D40929 /* UIKit.framework */,
+				8ED6F115197C5D0700D40929 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ED6F0F9197C5D0700D40929 /* FitMap */ = {
+			isa = PBXGroup;
+			children = (
+				8E27A57A19816FE000ABC7D7 /* Model */,
+				8E27A57919816FCA00ABC7D7 /* View */,
+				8E27A57819816F5200ABC7D7 /* Controller */,
+				8ED6F10E197C5D0700D40929 /* Images.xcassets */,
+				8ED6F0FA197C5D0700D40929 /* Supporting Files */,
+			);
+			path = FitMap;
+			sourceTree = "<group>";
+		};
+		8ED6F0FA197C5D0700D40929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E1F373F198C9B6B0036E4F4 /* social-facebook-box-blue-icon.png */,
+				CF2BB233198DEF6700D6BD1A /* bootstrap.min.js */,
+				CF2BB231198DEF4D00D6BD1A /* bootstrap.min.css */,
+				8E1F373D198C9A8F0036E4F4 /* run_logo_original3.png */,
+				8E1F373B198C9A810036E4F4 /* run_logo_original2.png */,
+				8E1F3739198C9A780036E4F4 /* run_logo_original1.png */,
+				8E1F3737198C998F0036E4F4 /* run_logo.png */,
+				CF1154821986D112005988EF /* yes.png */,
+				CF1154801986D00D005988EF /* Fitbit.png */,
+				CF11547B1986CCFF005988EF /* TermOfUsePage.html */,
+				CF1154791986CCE3005988EF /* TrackingPage.html */,
+				8EB1E486197D9E9600DC732B /* 34-coffee.png */,
+				8EB1E488197D9EA500DC732B /* 63-runner.png */,
+				8EB1E4AE197DA01900DC732B /* cog_02@2x.png */,
+				8EB1E4AC197DA01000DC732B /* database@2x.png */,
+				8ED6F0FB197C5D0700D40929 /* FitMap-Info.plist */,
+				8ED6F0FC197C5D0700D40929 /* InfoPlist.strings */,
+				8ED6F0FF197C5D0700D40929 /* main.m */,
+				8ED6F101197C5D0700D40929 /* FitMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ED6F11B197C5D0700D40929 /* FitMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED6F121197C5D0700D40929 /* FitMapTests.m */,
+				8ED6F11C197C5D0700D40929 /* Supporting Files */,
+			);
+			path = FitMapTests;
+			sourceTree = "<group>";
+		};
+		8ED6F11C197C5D0700D40929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ED6F11D197C5D0700D40929 /* FitMapTests-Info.plist */,
+				8ED6F11E197C5D0700D40929 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED6F0EF197C5D0700D40929 /* FitMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED6F125197C5D0700D40929 /* Build configuration list for PBXNativeTarget "FitMap" */;
+			buildPhases = (
+				8ED6F0EC197C5D0700D40929 /* Sources */,
+				8ED6F0ED197C5D0700D40929 /* Frameworks */,
+				8ED6F0EE197C5D0700D40929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitMap;
+			productName = FitMap;
+			productReference = 8ED6F0F0197C5D0700D40929 /* FitMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ED6F113197C5D0700D40929 /* FitMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED6F128197C5D0700D40929 /* Build configuration list for PBXNativeTarget "FitMapTests" */;
+			buildPhases = (
+				8ED6F110197C5D0700D40929 /* Sources */,
+				8ED6F111197C5D0700D40929 /* Frameworks */,
+				8ED6F112197C5D0700D40929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED6F11A197C5D0700D40929 /* PBXTargetDependency */,
+			);
+			name = FitMapTests;
+			productName = FitMapTests;
+			productReference = 8ED6F114197C5D0700D40929 /* FitMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED6F0E8197C5D0700D40929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FIT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CMU;
+				TargetAttributes = {
+					8ED6F113197C5D0700D40929 = {
+						TestTargetID = 8ED6F0EF197C5D0700D40929;
+					};
+				};
+			};
+			buildConfigurationList = 8ED6F0EB197C5D0700D40929 /* Build configuration list for PBXProject "FitMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ED6F0E7197C5D0700D40929;
+			productRefGroup = 8ED6F0F1197C5D0700D40929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED6F0EF197C5D0700D40929 /* FitMap */,
+				8ED6F113197C5D0700D40929 /* FitMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED6F0EE197C5D0700D40929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1F3738198C998F0036E4F4 /* run_logo.png in Resources */,
+				8EB1E489197D9EA500DC732B /* 63-runner.png in Resources */,
+				8EB1E487197D9E9600DC732B /* 34-coffee.png in Resources */,
+				8ED6F10F197C5D0700D40929 /* Images.xcassets in Resources */,
+				8EB1E4AD197DA01000DC732B /* database@2x.png in Resources */,
+				8E1F3740198C9B6B0036E4F4 /* social-facebook-box-blue-icon.png in Resources */,
+				8E1F373A198C9A780036E4F4 /* run_logo_original1.png in Resources */,
+				CF11547A1986CCE3005988EF /* TrackingPage.html in Resources */,
+				CF2BB232198DEF4D00D6BD1A /* bootstrap.min.css in Resources */,
+				CF1154811986D00D005988EF /* Fitbit.png in Resources */,
+				8E1F373C198C9A810036E4F4 /* run_logo_original2.png in Resources */,
+				8ED6F0FE197C5D0700D40929 /* InfoPlist.strings in Resources */,
+				8E1F373E198C9A8F0036E4F4 /* run_logo_original3.png in Resources */,
+				8ED6F107197C5D0700D40929 /* Main.storyboard in Resources */,
+				8EB1E4AF197DA01900DC732B /* cog_02@2x.png in Resources */,
+				CF1154831986D112005988EF /* yes.png in Resources */,
+				CF11547C1986CCFF005988EF /* TermOfUsePage.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED6F112197C5D0700D40929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED6F120197C5D0700D40929 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED6F0EC197C5D0700D40929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED6F104197C5D0700D40929 /* FITAppDelegate.m in Sources */,
+				8E1F3743198CA6250036E4F4 /* UserInfo.m in Sources */,
+				8E6698DA1983440500BC63B0 /* FITRouteViewController.m in Sources */,
+				8E27A52A198052EF00ABC7D7 /* FitMap.xcdatamodeld in Sources */,
+				8ED6F10A197C5D0700D40929 /* FITDailyRunViewController.m in Sources */,
+				8E6698E01986A5EF00BC63B0 /* FITSearchResultsTableViewController.m in Sources */,
+				8E27A51F197F645500ABC7D7 /* FITExerciseDetailViewController.m in Sources */,
+				8E1F374F198D515D0036E4F4 /* FITNearbyDrinkResultsTableViewCell.m in Sources */,
+				8E1F3756198E81410036E4F4 /* UserInformation.m in Sources */,
+				CF1154891986D47B005988EF /* FITTermOfUseViewController.m in Sources */,
+				CF2BB234198DEF6700D6BD1A /* bootstrap.min.js in Sources */,
+				8E27A57719813F6500ABC7D7 /* RunInfo.m in Sources */,
+				8E6698E61986BF5700BC63B0 /* FITNearbyDrinkRouteViewController.m in Sources */,
+				8ED6F10D197C5D0700D40929 /* FITExerciseTrackViewController.m in Sources */,
+				8EB1E4B2197DFF4600DC732B /* FITNewRunViewController.m in Sources */,
+				8ED6F100197C5D0700D40929 /* main.m in Sources */,
+				CF11547F1986CE35005988EF /* FITAccountViewController.m in Sources */,
+				8E76BB2F197D68A400ED9A1F /* FITLoginViewController.m in Sources */,
+				8E1F374C198D51410036E4F4 /* FITNearbyDrinkMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED6F110197C5D0700D40929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED6F122197C5D0700D40929 /* FitMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ED6F11A197C5D0700D40929 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED6F0EF197C5D0700D40929 /* FitMap */;
+			targetProxy = 8ED6F119197C5D0700D40929 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ED6F0FC197C5D0700D40929 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED6F0FD197C5D0700D40929 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8ED6F105197C5D0700D40929 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED6F106197C5D0700D40929 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ED6F11E197C5D0700D40929 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED6F11F197C5D0700D40929 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ED6F123197C5D0700D40929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ED6F124197C5D0700D40929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED6F126197C5D0700D40929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					./FitMap/Library/OAuthiOS.framework,
+					"$(PROJECT_DIR)/FitMap/Library",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitMap/FitMap-Prefix.pch";
+				INFOPLIST_FILE = "FitMap/FitMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8ED6F127197C5D0700D40929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					./FitMap/Library/OAuthiOS.framework,
+					"$(PROJECT_DIR)/FitMap/Library",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitMap/FitMap-Prefix.pch";
+				INFOPLIST_FILE = "FitMap/FitMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8ED6F129197C5D0700D40929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FitMap.app/FitMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitMap/FitMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FitMapTests/FitMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8ED6F12A197C5D0700D40929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FitMap.app/FitMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitMap/FitMap-Prefix.pch";
+				INFOPLIST_FILE = "FitMapTests/FitMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED6F0EB197C5D0700D40929 /* Build configuration list for PBXProject "FitMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED6F123197C5D0700D40929 /* Debug */,
+				8ED6F124197C5D0700D40929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED6F125197C5D0700D40929 /* Build configuration list for PBXNativeTarget "FitMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED6F126197C5D0700D40929 /* Debug */,
+				8ED6F127197C5D0700D40929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED6F128197C5D0700D40929 /* Build configuration list for PBXNativeTarget "FitMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED6F129197C5D0700D40929 /* Debug */,
+				8ED6F12A197C5D0700D40929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E27A528198052EF00ABC7D7 /* FitMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E27A529198052EF00ABC7D7 /* FitMap.xcdatamodel */,
+			);
+			currentVersion = 8E27A529198052EF00ABC7D7 /* FitMap.xcdatamodel */;
+			path = FitMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8ED6F0E8197C5D0700D40929 /* Project object */;
+}
